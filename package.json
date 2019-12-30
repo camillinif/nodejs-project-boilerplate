@@ -7,7 +7,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "check-dep": "npm-check -p",
         "lint": "eslint  --ignore-path .gitignore .",
-        "changelog": "standard-version --no-verify"
+        "changelog": "standard-version --no-verify",
+        "first-release": "standard-version --first-release"
     },
     "author": "",
     "license": "ISC",
