@@ -53,3 +53,12 @@ The scope should be the name of the npm package affected (as perceived by the pe
 -   `git flow release start 1.0.0` (or another version)
 -   `npm run first-release` (for version other than `1.0.0`, use `npm run changelog`)
 -   `git flow release finish`
+
+## New release example
+
+-   `git flow feature <feature-name> start`
+-   `<develop and commit your new feature>`
+-   `git flow feature finish`
+-   `git flow release start x.y.x`
+-   `npm run changelog`
+-   `git flow release finish`
