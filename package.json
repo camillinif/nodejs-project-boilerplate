@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest --coverage",
         "check-dep": "npm-check -p",
         "lint": "eslint  --ignore-path .gitignore .",
         "changelog": "standard-version --no-verify",
@@ -26,7 +26,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm run check-dep && npm run lint",
+            "pre-commit": "npm run check-dep && npm run lint && npm test",
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
     },
