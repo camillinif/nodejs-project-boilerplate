@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.3...v1.0.4) (2019-12-30)
+
+
+### Build System
+
+* add coverage folder to gitignore ([3cfc67c](https://github.com/camillinif/nodejs-project-boilerplate/commit/3cfc67c3da0f4eba431a15cff831baa327ec1261))
+* define test script ([84b6f5a](https://github.com/camillinif/nodejs-project-boilerplate/commit/84b6f5a7fde00594412cd5745bc41f685704d3f8))
+* install jest ([9119c2b](https://github.com/camillinif/nodejs-project-boilerplate/commit/9119c2bc9d33566fb39dfda5a79fe3071bc8d86a))
+
+
+### Docs
+
+* update readme ([70458ac](https://github.com/camillinif/nodejs-project-boilerplate/commit/70458ac8a46dc3cdfcda5034b774461629d21412))
+
 ### [1.0.3](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.2...v1.0.3) (2019-12-30)
 
 
