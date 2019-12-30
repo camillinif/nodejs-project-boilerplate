@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.1...v1.0.2) (2019-12-30)
+
+
+### Docs
+
+* add setup example into readme ([07c53af](https://github.com/camillinif/nodejs-project-boilerplate/commit/07c53af017bee7e086939e99c8d7b6d26c33df81))
+
 ### [1.0.1](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.0...v1.0.1) (2019-12-30)
 
 
