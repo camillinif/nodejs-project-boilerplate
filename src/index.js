@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const os = require('os');
 const fs = require('fs-extra');
 const R = require('ramda');
 
@@ -7,7 +8,6 @@ const directories = [
     'test',
     '.editorconfig',
     '.eslintrc',
-    '.gitignore',
     '.npmignore',
     '.prettierrc',
     '.versionrc',
@@ -146,5 +146,14 @@ const updatePackageJson = packageJsonPath => {
     fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson));
 };
 
+const createGitIgnore = () => {
+    console.log('creating .gitignore');
+    fs.writeFileSync(
+        `${process.cwd()}/.gitignore`,
+        `node_modules/${os.EOL}coverage/${os.EOL}`
+    );
+};
+
 updatePackageJson(`${process.cwd()}/package.json`);
 directories.forEach(copyPath);
+createGitIgnore();
