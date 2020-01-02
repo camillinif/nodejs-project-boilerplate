@@ -70,7 +70,7 @@ const updatePackageJson = packageJsonPath => {
     );
 
     packageJson = R.assocPath(
-        ['devDepencencies', 'commitlint'],
+        ['devDependencies', 'commitlint'],
         '^8.2.0',
         packageJson
     );
