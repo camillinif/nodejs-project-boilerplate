@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.1.4...v1.1.5) (2020-01-02)
+
+
+### Bug Fixes
+
+* create .npmignore instead of copy ([64c907e](https://github.com/camillinif/nodejs-project-boilerplate/commit/64c907e551bcbf9890c2796cb3b52d8e68e0acdb))
+
 ### [1.1.4](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.1.3...v1.1.4) (2020-01-02)
 
 
