@@ -39,5 +39,9 @@
     "dependencies": {
         "fs-extra": "^8.1.0",
         "ramda": "^0.26.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/camillinif/nodejs-project-boilerplate.git"
     }
 }
