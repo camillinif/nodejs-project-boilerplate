@@ -8,7 +8,6 @@ const directories = [
     'test',
     '.editorconfig',
     '.eslintrc',
-    '.npmignore',
     '.prettierrc',
     '.versionrc',
     'commitlint.config.js'
