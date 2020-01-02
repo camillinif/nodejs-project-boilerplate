@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.5...v1.1.0) (2020-01-02)
+
+
+### Features
+
+* add init script ([a8b45b7](https://github.com/camillinif/nodejs-project-boilerplate/commit/a8b45b73bf4002a451fdb1d717a6bbb8a097562f))
+
 ### [1.0.5](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.4...v1.0.5) (2019-12-30)
 
 
