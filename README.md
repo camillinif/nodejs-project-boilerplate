@@ -1,6 +1,10 @@
 # NodeJS Project Boilerplate
 
+Setup for nodejs backend project
+
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
+This setup includes:
 
 -   autoformatting code
 -   git hooks
