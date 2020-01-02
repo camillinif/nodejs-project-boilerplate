@@ -1,8 +1,8 @@
 {
     "name": "nodejs-project-boilerplate",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "description": "",
-    "main": "index.js",
+    "main": "src/index.js",
     "scripts": {
         "test": "jest --coverage",
         "check-dep": "npm-check -p",
@@ -34,5 +34,9 @@
         "skip": {
             "tag": true
         }
+    },
+    "dependencies": {
+        "fs-extra": "^8.1.0",
+        "ramda": "^0.26.1"
     }
 }

@@ -46,11 +46,12 @@ The scope should be the name of the npm package affected (as perceived by the pe
 -   `git flow init`
 -   `<config git flow>`
 -   `git flow feature start init-project`
--   `npm init -y && echo node_modules/ >> .gitignore`
--   `git add . && git commit -m 'build: init package.json'`
--   `<copy all settings from boilerplate>`
--   `git add . && git commit -m 'build: add project build settings'`
+-   `npx nodejs-project-boilerplate`
+-   `git add . && git commit -m 'build: init project'`
 -   `git flow feature finish`
+
+## First release
+
 -   `git flow release start 1.0.0` (or another version)
 -   `npm run first-release` (for version other than `1.0.0`, use `npm run changelog`)
 -   `git flow release finish`
