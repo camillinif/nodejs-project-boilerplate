@@ -154,6 +154,12 @@ const createGitIgnore = () => {
     );
 };
 
+const createNpmIgnore = () => {
+    console.log('creating .npmignore');
+    fs.writeFileSync(`${process.cwd()}/.npmignore`, `coverage/${os.EOL}`);
+};
+
 updatePackageJson(`${process.cwd()}/package.json`);
 directories.forEach(copyPath);
 createGitIgnore();
+createNpmIgnore();
