@@ -1,6 +1,1 @@
 coverage/
-.editorconfig
-.eslintrc
-.prettierrc
-.versionrc
-commitlint.config.js
