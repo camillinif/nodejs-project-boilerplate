@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.1.6...v1.1.7) (2020-01-02)
+
+
+### Bug Fixes
+
+* fix commitlint dependency reference ([4cdf659](https://github.com/camillinif/nodejs-project-boilerplate/commit/4cdf6598d958fb56b03aadb9a7f3ad23c17d4be6))
+
 ### [1.1.6](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.1.5...v1.1.6) (2020-01-02)
 
 
