@@ -1,0 +1,16 @@
+{
+    "scripts": [
+        {
+            "name": "lint",
+            "command": "eslint  --ignore-path .gitignore ."
+        }
+    ],
+    "dependencies": [
+        {
+            "library": "eslint",
+            "version": "^6.8.0"
+        }
+    ],
+    "paths": [".eslintrc"],
+    "customEntries": []
+}

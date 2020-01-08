@@ -1,0 +1,25 @@
+{
+    "scripts": [
+        {
+            "name": "changelog",
+            "command": "standard-version --no-verify"
+        },
+        {
+            "name": "first-release",
+            "command": "standard-version --first-release"
+        }
+    ],
+    "dependencies": [
+        {
+            "library": "standard-version",
+            "version": "^7.0.1"
+        }
+    ],
+    "paths": [".versionrc"],
+    "customEntries": [
+        {
+            "path": ["standard-version", "skip", "tag"],
+            "value": true
+        }
+    ]
+}

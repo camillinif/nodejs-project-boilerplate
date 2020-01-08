@@ -1,0 +1,24 @@
+{
+    "scripts": [
+        {
+            "name": "coverage",
+            "command": "stryker run"
+        }
+    ],
+    "dependencies": [
+        {
+            "library": "@stryker-mutator/core",
+            "version": "^2.4.0"
+        },
+        {
+            "library": "@stryker-mutator/javascript-mutator",
+            "version": "^2.4.0"
+        },
+        {
+            "library": "@stryker-mutator/jest-runner",
+            "version": "^2.4.0"
+        }
+    ],
+    "paths": ["stryker.conf.js"],
+    "customEntries": []
+}

@@ -1,0 +1,16 @@
+{
+    "scripts": [
+        {
+            "name": "test",
+            "command": "jest"
+        }
+    ],
+    "dependencies": [
+        {
+            "library": "jest",
+            "version": "^24.9.0"
+        }
+    ],
+    "paths": ["test/index.test.js"],
+    "customEntries": []
+}
