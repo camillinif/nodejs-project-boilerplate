@@ -24,7 +24,7 @@ This setup includes:
 
 ## Usage
 
-````sh
+```sh
 npx nodejs-project-boilerplate
 ```
 
@@ -76,4 +76,7 @@ The scope should be the name of the npm package affected (as perceived by the pe
 -   `git flow release start x.y.x`
 -   `npm run changelog`
 -   `git flow release finish`
-````
+
+```
+
+```
