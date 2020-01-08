@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.3.0...v1.3.1) (2020-01-08)
+
+
+### Docs
+
+* fix markdown markup ([4a3303b](https://github.com/camillinif/nodejs-project-boilerplate/commit/4a3303b96817d6a28841973a243b982b6d75e67a))
+
 ## [1.3.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.5...v1.3.0) (2020-01-08)
 
 
