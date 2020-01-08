@@ -5,7 +5,8 @@
     "bin": "src/index.js",
     "main": "src/index.js",
     "scripts": {
-        "test": "jest --coverage",
+        "test": "jest",
+        "coverage": "stryker run",
         "check-dep": "npm-check -p",
         "lint": "eslint  --ignore-path .gitignore .",
         "changelog": "standard-version --no-verify",
@@ -23,7 +24,10 @@
         "jest": "^24.9.0",
         "npm-check": "^5.9.0",
         "prettier": "^1.19.1",
-        "standard-version": "^7.0.1"
+        "standard-version": "^7.0.1",
+        "@stryker-mutator/core": "^2.4.0",
+        "@stryker-mutator/javascript-mutator": "^2.4.0",
+        "@stryker-mutator/jest-runner": "^2.4.0"
     },
     "husky": {
         "hooks": {
