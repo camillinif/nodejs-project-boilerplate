@@ -2,6 +2,50 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.0.5...v1.3.0) (2020-01-08)
+
+
+### Features
+
+* add init script ([a8b45b7](https://github.com/camillinif/nodejs-project-boilerplate/commit/a8b45b73bf4002a451fdb1d717a6bbb8a097562f))
+* eslint with ecmascript 2018 compatibility ([8b70f2a](https://github.com/camillinif/nodejs-project-boilerplate/commit/8b70f2afac86c045833c3c78449e780b8324f627))
+* install eslint-plugin-sonarjs ([ca38a65](https://github.com/camillinif/nodejs-project-boilerplate/commit/ca38a65fd1081debb2018bff2cc73c2307387fdb))
+* install stryke for mutation testing ([896e8e0](https://github.com/camillinif/nodejs-project-boilerplate/commit/896e8e0884769e6d6b9235a06af65f500dfae678))
+
+
+### Bug Fixes
+
+* create .gitignore instead of copy ([4dfdd87](https://github.com/camillinif/nodejs-project-boilerplate/commit/4dfdd8792ad40186d082ac1e43b8e42050219f24))
+* create .npmignore instead of copy ([64c907e](https://github.com/camillinif/nodejs-project-boilerplate/commit/64c907e551bcbf9890c2796cb3b52d8e68e0acdb))
+* declare init script as executable ([94daf04](https://github.com/camillinif/nodejs-project-boilerplate/commit/94daf04dfd15397208fd3d9ed852f63e4b8b99f3))
+* fix .npmignore creation ([c0b4d03](https://github.com/camillinif/nodejs-project-boilerplate/commit/c0b4d0398d878c54f5ab22e884e204938c221df8))
+* fix commitlint dependency reference ([4cdf659](https://github.com/camillinif/nodejs-project-boilerplate/commit/4cdf6598d958fb56b03aadb9a7f3ad23c17d4be6))
+
+
+### Docs
+
+* update readme ([34c17a0](https://github.com/camillinif/nodejs-project-boilerplate/commit/34c17a0aeaf9ae5d2ddc7ff836cef95ec2610391))
+
+
+### Build System
+
+* add bin script ([230a163](https://github.com/camillinif/nodejs-project-boilerplate/commit/230a163126412112b6711af2547167245ac08480))
+* add repository reference to package.json ([c676564](https://github.com/camillinif/nodejs-project-boilerplate/commit/c67656494db417ad8cf53b855f91f30861658a4a))
+
+
+### Others
+
+* **release:** 1.1.0 ([9834cb1](https://github.com/camillinif/nodejs-project-boilerplate/commit/9834cb16c688aa2d3b6a8d7e72dd5c4d599271f9))
+* **release:** 1.1.1 ([b2222b5](https://github.com/camillinif/nodejs-project-boilerplate/commit/b2222b59e638646dfa231d762a932c68e06aa8e8))
+* **release:** 1.1.2 ([0ddbde0](https://github.com/camillinif/nodejs-project-boilerplate/commit/0ddbde0915061a479c44b6486737d9c397fed50c))
+* **release:** 1.1.3 ([1bb5d64](https://github.com/camillinif/nodejs-project-boilerplate/commit/1bb5d6432151d2958c253748b27c46d50277a76a))
+* **release:** 1.1.4 ([759d1ed](https://github.com/camillinif/nodejs-project-boilerplate/commit/759d1edfaa9aa059ac97394e931585b220f31dd7))
+* **release:** 1.1.5 ([457b4e4](https://github.com/camillinif/nodejs-project-boilerplate/commit/457b4e47939329f64900c01ef07308fa49296e10))
+* **release:** 1.1.6 ([56fa486](https://github.com/camillinif/nodejs-project-boilerplate/commit/56fa4867f93ea79cde2cba77a5427ed718b53ad6))
+* **release:** 1.1.7 ([0fb42ce](https://github.com/camillinif/nodejs-project-boilerplate/commit/0fb42ce882ff65e0501361b9bfeb7de30ec6c68b))
+* **release:** 1.2.0 ([16c3075](https://github.com/camillinif/nodejs-project-boilerplate/commit/16c3075df0e38ae340127934270f78abcc8d3287))
+* **release:** 1.2.1 ([265d158](https://github.com/camillinif/nodejs-project-boilerplate/commit/265d1580d05a292e659242f3849263ec79aa345b))
+
 ### [1.2.1](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.2.0...v1.2.1) (2020-01-02)
 
 
