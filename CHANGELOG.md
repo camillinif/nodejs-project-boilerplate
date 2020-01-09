@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.3.2...v1.3.3) (2020-01-09)
+
+
+### Bug Fixes
+
+* fix stryker installation ([2a6ac81](https://github.com/camillinif/nodejs-project-boilerplate/commit/2a6ac810e98b35615fb35a649f090e57d8e523d3))
+
 ### [1.3.2](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.3.1...v1.3.2) (2020-01-09)
 
 
