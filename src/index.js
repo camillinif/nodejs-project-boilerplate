@@ -10,7 +10,8 @@ const directories = [
     '.eslintrc',
     '.prettierrc',
     '.versionrc',
-    'commitlint.config.js'
+    'commitlint.config.js',
+    'stryker.conf.js'
 ];
 
 const copyPath = path => {
@@ -60,6 +61,12 @@ const updatePackageJson = packageJsonPath => {
     packageJson = R.assocPath(
         ['scripts', 'first-release'],
         'standard-version --first-release',
+        packageJson
+    );
+
+    packageJson = R.assocPath(
+        ['scripts', 'coverage'],
+        'stryker run',
         packageJson
     );
 
@@ -120,6 +127,24 @@ const updatePackageJson = packageJsonPath => {
     packageJson = R.assocPath(
         ['devDependencies', 'standard-version'],
         '^7.0.1',
+        packageJson
+    );
+
+    packageJson = R.assocPath(
+        ['devDependencies', '@stryker-mutator/core'],
+        '^2.4.0',
+        packageJson
+    );
+
+    packageJson = R.assocPath(
+        ['devDependencies', '@stryker-mutator/javascript-mutator'],
+        '^2.4.0',
+        packageJson
+    );
+
+    packageJson = R.assocPath(
+        ['@stryker-mutator/jest-runner'],
+        '^2.4.0',
         packageJson
     );
 
