@@ -143,7 +143,7 @@ const updatePackageJson = packageJsonPath => {
     );
 
     packageJson = R.assocPath(
-        ['@stryker-mutator/jest-runner'],
+        ['devDependencies', '@stryker-mutator/jest-runner'],
         '^2.4.0',
         packageJson
     );
