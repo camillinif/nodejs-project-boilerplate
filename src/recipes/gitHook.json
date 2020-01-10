@@ -1,0 +1,20 @@
+{
+    "scripts": [],
+    "dependencies": [
+        {
+            "library": "husky",
+            "version": "^3.1.0"
+        }
+    ],
+    "paths": [".editorconfig", ".prettierrc"],
+    "customEntries": [
+        {
+            "path": ["husky", "hooks", "pre-commit"],
+            "value": "npm run check-dep && npm run lint && npm test"
+        },
+        {
+            "path": ["husky", "hooks", "commit-msg"],
+            "value": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    ]
+}

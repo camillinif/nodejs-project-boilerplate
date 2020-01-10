@@ -1,0 +1,16 @@
+{
+    "scripts": [
+        {
+            "name": "check-dep",
+            "command": "npm-check -p"
+        }
+    ],
+    "dependencies": [
+        {
+            "library": "npm-check",
+            "version": "^5.9.0"
+        }
+    ],
+    "paths": [],
+    "customEntries": []
+}
