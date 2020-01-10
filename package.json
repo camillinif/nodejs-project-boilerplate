@@ -42,6 +42,7 @@
     },
     "dependencies": {
         "fs-extra": "^8.1.0",
+        "npm": "^6.13.6",
         "ramda": "^0.26.1"
     },
     "repository": {
