@@ -1,0 +1,15 @@
+{
+    "scripts": [],
+    "dependencies": [
+        {
+            "library": "typescript",
+            "version": "^3.7.4"
+        },
+        {
+            "library": "ts-node",
+            "version": "^8.6.0"
+        }
+    ],
+    "paths": ["tsconfig.json"],
+    "customEntries": []
+}
