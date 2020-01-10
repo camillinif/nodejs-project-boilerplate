@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.2.1...v1.4.0) (2020-01-10)
+
+
+### Features
+
+* auto install dependencies ([95f2d8d](https://github.com/camillinif/nodejs-project-boilerplate/commit/95f2d8d20d57c92dc843dbf57a390e1e8b149d49))
+* install eslint-plugin-sonarjs ([ca38a65](https://github.com/camillinif/nodejs-project-boilerplate/commit/ca38a65fd1081debb2018bff2cc73c2307387fdb))
+* install stryke for mutation testing ([896e8e0](https://github.com/camillinif/nodejs-project-boilerplate/commit/896e8e0884769e6d6b9235a06af65f500dfae678))
+
+
+### Bug Fixes
+
+* fix stryker installation ([2a6ac81](https://github.com/camillinif/nodejs-project-boilerplate/commit/2a6ac810e98b35615fb35a649f090e57d8e523d3))
+* fix stryker script and configuration into package.json ([35ef83b](https://github.com/camillinif/nodejs-project-boilerplate/commit/35ef83b8aa27af757f45c0ec8bc864a887c61f70))
+
+
+### Docs
+
+* fix markdown markup ([4a3303b](https://github.com/camillinif/nodejs-project-boilerplate/commit/4a3303b96817d6a28841973a243b982b6d75e67a))
+
+
+### Others
+
+* **release:** 1.3.0 ([8f10efe](https://github.com/camillinif/nodejs-project-boilerplate/commit/8f10efebd49f51ab4b7979ac197d84a3cb35edfc))
+* **release:** 1.3.1 ([242d97c](https://github.com/camillinif/nodejs-project-boilerplate/commit/242d97c1469b1edb79effc2fd93ad9b4629c1388))
+* **release:** 1.3.2 ([4aa6f4d](https://github.com/camillinif/nodejs-project-boilerplate/commit/4aa6f4df20bca62da3a45fe39f5ccc498ea56f1f))
+* **release:** 1.3.3 ([07d4436](https://github.com/camillinif/nodejs-project-boilerplate/commit/07d4436605cd4416dbdf26252658beda2def7476))
+
+
+### Code Refactoring
+
+* refactoring and testing ([987d17d](https://github.com/camillinif/nodejs-project-boilerplate/commit/987d17d83cfa0b30507d844ed9a6b9b88f4c325f))
+
 ### [1.3.3](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.3.2...v1.3.3) (2020-01-09)
 
 
