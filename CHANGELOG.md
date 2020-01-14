@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.3.3...v1.5.0) (2020-01-14)
+
+
+### Features
+
+* add typescript support ([6c7bd64](https://github.com/camillinif/nodejs-project-boilerplate/commit/6c7bd646ffae8a1b9320a4505d9dd0dff4a02b68))
+* auto install dependencies ([95f2d8d](https://github.com/camillinif/nodejs-project-boilerplate/commit/95f2d8d20d57c92dc843dbf57a390e1e8b149d49))
+
+
+### Others
+
+* **release:** 1.4.0 ([051e861](https://github.com/camillinif/nodejs-project-boilerplate/commit/051e8614bc104766bcc48df9ec120dc504f92395))
+
+
+### Code Refactoring
+
+* refactoring and testing ([987d17d](https://github.com/camillinif/nodejs-project-boilerplate/commit/987d17d83cfa0b30507d844ed9a6b9b88f4c325f))
+* use of promise ([a1eb7fd](https://github.com/camillinif/nodejs-project-boilerplate/commit/a1eb7fde706ea44010e3117e420268abaa564e7c))
+
 ## [1.4.0](https://github.com/camillinif/nodejs-project-boilerplate/compare/v1.2.1...v1.4.0) (2020-01-10)
 
 
