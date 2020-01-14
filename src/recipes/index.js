@@ -8,5 +8,6 @@ module.exports = [
     require('./npm.json'),
     require('./testing.json'),
     require('./testingCoverage.json'),
-    require('./unusedDependencies.json')
+    require('./unusedDependencies.json'),
+    require('./typescript.json')
 ];

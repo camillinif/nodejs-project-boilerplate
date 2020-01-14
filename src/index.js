@@ -1,22 +1,34 @@
 #!/usr/bin/env node
 
-const fs = require('fs-extra');
+const fs = require('fs-extra').promises;
 const npm = require('npm');
 const installRecipe = require('./utils/installRecipe');
 const recipes = require('./recipes');
 const packageJsonPath = `${process.cwd()}/package.json`;
-let packageJson = null;
 
-try {
-    packageJson = require(packageJsonPath);
-    packageJson = recipes.reduce((packageJson, recipe) =>
-        installRecipe(packageJson)(recipe)
+const readPackageJson = packageJsonPath =>
+    Promise.resolve(
+        fs
+            .readFile(packageJsonPath)
+            .then(buffer => JSON.parse(buffer.toString()))
     );
-    fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson));
-    npm.load(() => {
-        npm.commands.install([], () => {});
+const installRecipes = packageJson =>
+    recipes.reduce(
+        (packageJson, recipe) => installRecipe(packageJson)(recipe),
+        packageJson
+    );
+
+const writePackageJson = packageJson =>
+    fs.writeFile(packageJsonPath, JSON.stringify(packageJson));
+const installDependencies = npm.load(() => {
+    npm.commands.install([], () => {});
+});
+
+readPackageJson(packageJsonPath)
+    .then(installRecipes)
+    .then(writePackageJson)
+    .then(installDependencies)
+    .catch(e => {
+        console.log(e);
+        process.exit(1);
     });
-} catch (e) {
-    console.log(e);
-    process.exit(1);
-}
